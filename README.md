@@ -29,7 +29,7 @@
 - **login:** sf_student1
 - **password:** 4i2385j
 
-### or
+### или
 
 - **login:** sf_student10
 - **password:** KHKfTXb
