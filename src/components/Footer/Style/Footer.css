@@ -1,0 +1,15 @@
+.NewFooter{
+    margin-top: 65px;
+    background-color: #029491;
+}
+.NewFooter_wr{
+    width: 96vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.NewFooter_Info{
+    text-align: flex-end;
+    margin-top: 27px;
+    color: white;
+}

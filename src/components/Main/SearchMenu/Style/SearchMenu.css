@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Ferry";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Ferry"),
+         url("../../../../fonts/ferry_black.otf") format ("otf"),
+  }
+
+@font-face {
+    font-family: Inter;
+    src: url(../../../../fonts/Inter-Regular.ttf);
+}  
+
+.SearchBlock{
+    display: flex;
+    justify-content: space-between;
+}
+.Search_title{
+    font-family: 'Ferry';
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 72px;
+    width: 84%;
+    margin-top: 40px;
+}
+.Search_pr{
+    font-family: Inter;
+    width: 78%;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.RequestBtn{
+    background-color: #5970FF;
+    color: #FFFFFF;
+    margin-top: 70px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    font-size: 22px;
+    font-weight: 500;
+    width: 335px;
+}
+
+.RequestBtn:hover {
+    background-color: #4966e6;
+}
+
+
+@media screen and (max-width: 1150px) {
+    .SearchBlock{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Search_pr{
+        width: 100%
+    }
+    .Search_leftBlock{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        margin-left: 0%;
+        font-size: 60px;
+    }
+    .funMan{
+        width: 629px;
+        height: 620px;
+        top: 117px;
+        left: 751px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .Search_title{
+        font-size: 28px;
+        line-height: 33px;
+        margin-left: 0px;
+    }
+    .funMan{
+        width: 347px;
+        height: 342px;
+        top: 449px;
+        left: 14px;
+    }
+}
+    

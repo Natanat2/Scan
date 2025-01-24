@@ -1,0 +1,9 @@
+.MainStatic{
+    display: flex;
+    flex-direction: column;
+}
+.MainStatic_title{
+    font-family: 'Ferry', Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    line-height: 54px;
+}

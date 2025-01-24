@@ -1,0 +1,13 @@
+.NewHeader {
+    margin: 0 auto;
+  }
+  
+  .NewHeaderWrapper {
+    width: 96vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  
+
+  

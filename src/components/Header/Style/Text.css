@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Inter;
+  src: url(../../../fonts/Inter-Medium.ttf);
+}
+.NewMenu {
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+  }
+  
+  .NewMenuLink {
+    font-size: Inter;
+    margin-right: 45px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: text;
+    pointer-events: none;
+  }
+  
+  .NewMenuLink:hover {
+    color: black;
+  }
+  
+  .NewMenuLinkActive {
+    pointer-events: initial;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .NewMenuLinkActive:hover {
+    color: blue;
+  }
+  
+  @media screen and (max-width: 750px) {
+    .NewMenu {
+      margin-left: 60px;
+    }
+  }
+  
+  @media screen and (max-width: 950px) {
+    .NewMenu {
+      display: none;
+    }
+  }
+  

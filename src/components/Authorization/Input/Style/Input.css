@@ -1,0 +1,22 @@
+.NewInput{
+    display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
+    gap: 15px;
+    margin-top: 40px;
+}
+.NewInput_label{
+    color: #949494;
+}
+.NewLoginInput{
+    height: 43px;
+    border-radius: 5px;
+    border: 2px solid #C7C7C7;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 5%);
+}
+.NewForm__errText{
+    display: block;
+    color: tomato;
+    align-self: center;
+    margin: -8px auto 10px auto;
+}

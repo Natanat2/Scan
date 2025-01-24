@@ -1,0 +1,48 @@
+.NewAccountPanel {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 34vw;
+}
+.NewAccountPanelLink {
+    align-self: center;
+    text-decoration: none;
+    color: black;
+    opacity: 40%;
+    cursor: pointer;
+}
+.NewAccountPanelVerticalSlash{
+    margin-left: 5%;
+}
+.NewAccountPanelButton{
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7CE3E1;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin-left: 5%;
+}
+
+.NewAccountPanelButton:hover {
+    background-color: #6AC9C6;   
+}
+
+@media screen and (max-width:1320px) {
+    .NewAccountPanelLink, .NewAccountPanelVerticalSlash, .NewAccountPanelButton {
+        margin-right: 5%;
+    }
+}
+@media screen and (max-width:1320px) {
+    .NewAccountPanel {
+        width: 44vw;
+    }
+}
+@media screen and (max-width: 950px) {
+    .NewAccountPanel {
+        display: none;
+    }
+}

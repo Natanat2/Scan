@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Ferry";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Ferry"),
+         url("../../../fonts/ferry_black.otf") format("otf"),
+  }
+
+.NewLogin {
+    margin-top: 45px;
+}
+.NewLogin_wr {
+    width: 96vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.NewLogin_lock {
+    position: absolute;
+    margin: -67px 0px 0px -56px;
+}
+.NewRightBox {
+    position: relative;
+    width: 480px;
+    box-shadow: 2px 2px 20px rgb(0 0 0 / 15%);
+    border-radius: 10px;
+    margin: 40px 70px 0px 0px;
+}
+.NewLogin_title {
+    font-family: 'Ferry', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    width: 682px;
+    font-size: 40px;
+    text-transform: lowercase;
+    line-height: 48px;
+}
+.NewLogin_img {
+    margin-left: 50px;
+}
+@media (max-width: 1270px) {
+    .NewLogin_wr {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 1270px) {
+    .NewLeftBox {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .NewLogin_img {
+        margin-top: 60px;
+        align-self: center;
+    }
+    .NewRightBox {
+        margin: 40px 0px 0px 0px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .NewLogin {
+        margin-top: 10px;
+    }
+    .NewLogin_title {
+        width: 66vw;
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 70px;
+    }
+    .NewLogin_lock {
+        margin: -80px 0px 0px 70px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .NewRightBox {
+        width: 95%;
+    }
+}

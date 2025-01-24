@@ -1,0 +1,31 @@
+.NewAvatar{
+    display: flex;
+    margin-top: 25px;
+}
+.NewAvatarContent{
+    display: flex;
+    flex-direction: column;
+}
+.NewAvatarButton{
+    border: none;
+    font-size: 10px;
+    line-height: 12px;
+    background-color: white;
+    opacity: 40%;
+    text-align: flex-end;
+}
+.NewAvatarButton:hover{
+    background-color: #6AC9C6;
+}
+
+
+.NewAvatarImg{
+    margin: 5px 0 0 5px;
+}
+
+@media screen and (max-width: 950px) {
+    .NewAvatar {
+      display: none;
+    }
+  }
+  
